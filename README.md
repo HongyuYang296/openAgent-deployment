@@ -47,6 +47,6 @@ to restart the docker and run it in background
 ### Step 3: Access the Application
 Once the containers are running, you can access the services through the following URLs:
 
-Frontend (React with Vite): http://localhost:5001
+Frontend (React with Vite): http://localhost:5173
 Backend (Node.js API): http://localhost:8001
 
