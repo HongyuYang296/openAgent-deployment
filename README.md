@@ -36,6 +36,14 @@ This will do the following:
 Build and start the backend service, pulling from the backend repository.
 Build and start the frontend service, pulling from the frontend repository and running the Vite development server with access from the host.
 
+If not working try:
+
+```bash
+docker-compose down
+docker-compose up -d
+```
+to restart the docker and run it in background
+
 ### Step 3: Access the Application
 Once the containers are running, you can access the services through the following URLs:
 
