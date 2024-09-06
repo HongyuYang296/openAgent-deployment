@@ -6,7 +6,7 @@ This repository contains the Docker Compose files and configurations necessary t
 
 Ensure that you have the following installed on your machine(you may need to sign up/login and make sure the docker is running):
 
-1. **Docker**: [Install Docker](https://docs.docker.com/get-docker/) (Docker Desktop)
+1. **Docker**: [Install Docker](https://docs.docker.com/get-docker/) 
 2. **Docker Compose**: Docker Compose is bundled with Docker Desktop, so no separate installation is necessary if you have Docker Desktop.
 
 ## Project Structure
