@@ -23,14 +23,14 @@ This repository uses Docker Compose to orchestrate both the backend and frontend
 ```bash
 git clone https://github.com/<your-username>/openAgent-deployment-main.git
 cd openAgent-deployment-main
-```bash
+```
 
 ### Step 2: Build and Run the Containers
 This project uses Docker Compose to manage the frontend and backend services. To build and run the Docker containers, use the following command:
 
 ```bash
 docker-compose up --build
-```bash
+```
 This will do the following:
 
 Build and start the backend service, pulling from the backend repository.
