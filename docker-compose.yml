@@ -2,7 +2,7 @@ version: '3.8'
 services:
   backend:
     build: 
-      context: https://github.com/<your-username>/<backend-repo>.git
+      context: https://github.com/HongyuYang296/openAgent-nodeTs.git
       # Optionally specify a branch
       # args:
       #   - GIT_BRANCH: main
@@ -13,7 +13,7 @@ services:
 
   frontend:
     build: 
-      context: https://github.com/<your-username>/<frontend-repo>.git
+      context: https://github.com/HongyuYang296/openAgent-react.git
       # args:
       #   - GIT_BRANCH: main
     ports:
