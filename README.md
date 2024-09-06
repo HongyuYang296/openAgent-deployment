@@ -1,6 +1,6 @@
 # Project Deployment in Docker
 
-This repository contains the Docker Compose files and configurations necessary to deploy the **TypeScript Node.js backend** and **React frontend (built with Vite)** for the [Project Name]. The setup runs both the frontend and backend in Docker containers, with port mapping for easy local development and testing.
+This repository contains the Docker Compose files and configurations necessary to deploy the **TypeScript Node.js backend** and **React frontend (built with Vite)** for the [openAgent demo app]. The setup runs both the frontend and backend in Docker containers, with port mapping for easy local development and testing.
 
 ## Prerequisites
 
