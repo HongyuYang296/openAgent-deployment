@@ -1,20 +1,17 @@
-version: '3.8'
+version: "3.8"
 services:
   backend:
-    build: 
+    build:
       context: https://github.com/HongyuYang296/openAgent-nodeTs.git
-      # Optionally specify a branch
-      # args:
-      #   - GIT_BRANCH: main
     ports:
       - "8001:8001"
     environment:
       - NODE_ENV=production
 
   frontend:
-    build: 
+    build:
       context: https://github.com/HongyuYang296/openAgent-react.git
-      # args:
-      #   - GIT_BRANCH: main
     ports:
-      - "3000:3000"
+      - "5173:5173"
+    environment:
+      - NODE_ENV=development
