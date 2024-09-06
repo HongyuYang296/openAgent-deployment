@@ -22,7 +22,7 @@ This repository uses Docker Compose to orchestrate both the backend and frontend
 
 ```bash
 git clone https://github.com/HongyuYang296/openAgent-deployment.git
-cd openAgent-deployment-main
+cd openAgent-deployment
 ```
 
 ### Step 2: Build and Run the Containers
